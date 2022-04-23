@@ -1,15 +1,11 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7665737&assignment_repo_type=AssignmentRepo)
-Week6 Marvel Exercise New Version
+# Marvel API
 
-Özelikle dikkat etmenizi istediğimiz noktalar
+**Project's Target** : To show and paginate certain data by sending a request to the API within a React.JS project. The data has been fetched from https://developer.marvel.com/ api by using Axios. Also, this project has a responsive structure. The fetched data will be stored in local storage to prevent an excessive amount of data fetching and sending requests while changing the pages. Search bar allows you to search any super hero you want. It has a autocomplete feature. Clicking on any super hero or searching and clicking on any hero will direct you to detail page. In detail page, you can view super hero image, details, and comics. Have Fun!
 
-1. Auto complete (Arama alanı için)
-2. Detail page (Arama alanında çıkan sonuçlardan birine tıklanınca veya sayfadaki itemlardan birine tıklanınca)
-Detay Sayfası
-● Karakter ayrıntılarını göstermelisin (ad, resim, açıklama)
-● Karakterin göründüğü çizgi romanları listelemelisin
-● Çizgi romanlar 10 ile sınırlandırmalı ve yayınlanma tarihine göre sıralamalısın
+**Screenshots** :
 
-3. Multi Language (İngilizce, Türkçe, Fransızca)
+![HomePageSearchBarLook](https://user-images.githubusercontent.com/93548218/164893789-352908b3-54ef-401d-a5a7-a4323a4c1b66.png)
 
-Deadline - 24.04.2022 10:00
+_________
+
+![DetailPage](https://user-images.githubusercontent.com/93548218/164893793-95950763-0aef-4aa2-89f8-39e1ed1d3175.png)
