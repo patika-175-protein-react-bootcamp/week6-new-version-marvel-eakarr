@@ -1,0 +1,342 @@
+/* //////////////////// General Specs Start //////////////////// */
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Oxygen:wght@300&family=Roboto&display=swap");
+body {
+  margin: 0;
+  border-radius: 0px;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+}
+
+/* //////////////////// General Specs End //////////////////// */
+
+/* //////////////////// Container Start //////////////////// */
+
+.container {
+  display: block;
+  justify-content: center;
+}
+
+.upper-side-container {
+  position: relative;
+  margin-bottom: 273px;
+  margin-top: -85px;
+}
+
+/* //////////////////// Upper Side Container Start //////////////////// */
+
+.super-heroes-img {
+  width: 100%;
+}
+
+.marvel-logo-img {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* //////////////////// Upper Side Container End //////////////////// */
+
+/* //////////////////// Down Side Start //////////////////// */
+
+.down-side-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1360px;
+}
+
+.down-side-container > div {
+  display: flex;
+  justify-content: center;
+  min-width: 254px;
+}
+
+.hero-cards {
+  max-width: 276px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  margin: 52px 32px;
+  padding: 18px;
+}
+
+.hero-cards > img {
+  width: 100%;
+  margin-top: -42px;
+  padding-top: 10px;
+  border-top: 1px solid #fff;
+}
+
+.hero-cards > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: top;
+  color: #ffffff;
+}
+
+.hero-cards:hover {
+  cursor: pointer;
+  filter: brightness(120%);
+}
+
+/* //////////////////// Down Side End //////////////////// */
+
+/* //////////////////// Pagination Start //////////////////// */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+}
+
+.pagination ul {
+  display: flex;
+  text-align: center;
+}
+
+.pagination ul > li {
+  width: 72px;
+  height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 23px;
+  line-height: 100%;
+  color: #7e7e7e;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.15px;
+  cursor: pointer;
+}
+
+.pagination ul > li:hover,
+.pagination ul > li.current-page {
+  background: #7e7e7e;
+  border-radius: 30px;
+  color: black;
+  height: 48px;
+}
+
+.pagination .previous,
+.pagination .next {
+  font-size: 50px;
+}
+/* //////////////////// Pagination End //////////////////// */
+
+/* //////////////////// SearchBarAndLang Start //////////////////// */
+
+.searchBarContainerMainDiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.searchBarLabel {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.searchBarAndLanguageDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBar > input {
+  height: 63px;
+  width: 609px;
+  border-radius: 0px;
+  border: #f4f4f4 solid 1px;
+  background-color: #222222;
+  padding-left: 26px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.searchBar > input::placeholder {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff solid;
+  opacity: 0.6;
+}
+
+.searchBarSpanDiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  width: 639px;
+  border-radius: 0px;
+  background-color: #434343;
+  border-radius: 2px;
+}
+
+.searchBarSpan {
+  border: #ffffff solid 1px;
+  padding-left: 26px;
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.searchBarSpan:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.languages {
+  height: 63px;
+}
+
+.languagesButtons {
+  margin: 0 7px;
+  height: 100%;
+  width: 63px;
+  background-color: #434343;
+}
+
+.languagesButtons:hover {
+  background-color: #ffffff;
+}
+
+.languagesButtons:active {
+  background-color: #ffffff;
+}
+
+/* //////////////////// SearchBarAndLang End //////////////////// */
+
+/* //////////////////// Detail Page Start //////////////////// */
+
+.backToHomePageButton {
+  background-color: #434343;
+  border: #f4f4f4 1px solid;
+  color: #fff;
+  margin: 20px 20px 0 20px;
+}
+.backToHomePageButton:hover {
+  background-color: gray;
+}
+
+.superHeroDetailParentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.superHeroDetailNameAndImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.superHeroDetailName {
+  color: gainsboro;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.superHeroDetailParagraph {
+  color: gainsboro;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 10px 10px;
+}
+
+.superHeroDetailComics {
+  color: gainsboro;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 10px 10px;
+}
+
+.superHeroDetailComics > span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.superHeroDetailComics > h2 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-bottom: #f4f4f4 1px solid;
+  padding-bottom: 10px;
+}
+/* //////////////////// Detail Page End //////////////////// */
+
+/* //////////////////// Container End //////////////////// */
+
+/* //////////////////// iPads / Tablets Start //////////////////// */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .down-side-container > div {
+    width: 33%;
+  }
+  .upper-side-container {
+    margin-bottom: 273px;
+  }
+  .super-heroes-img {
+    height: 100%;
+  }
+}
+/* //////////////////// iPads / Tablets End //////////////////// */
+
+/* //////////////////// Mobile Start //////////////////// */
+
+@media screen and (max-width: 481px) {
+  .down-side-container > div {
+    width: 100%;
+  }
+}
+
+/* //////////////////// Mobile End //////////////////// */
+
+@media screen and (max-width: 1070px) {
+  .down-side-container > div {
+    width: 100%;
+  }
+  .marvel-logo-img {
+    max-width: 300px;
+    max-height: 150px;
+  }
+
+  .super-heroes-img {
+    height: 100%;
+  }
+} /* Number of cards drops from 3 to 1. You may think like "Actually mobile starts after 975px", in a way that is true but there is no way doing it without knowing the mobile and tablet versions of the marvel poster itself. */

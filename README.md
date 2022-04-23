@@ -5,6 +5,11 @@ Week6 Marvel Exercise New Version
 
 1. Auto complete (Arama alanı için)
 2. Detail page (Arama alanında çıkan sonuçlardan birine tıklanınca veya sayfadaki itemlardan birine tıklanınca)
+Detay Sayfası
+● Karakter ayrıntılarını göstermelisin (ad, resim, açıklama)
+● Karakterin göründüğü çizgi romanları listelemelisin
+● Çizgi romanlar 10 ile sınırlandırmalı ve yayınlanma tarihine göre sıralamalısın
+
 3. Multi Language (İngilizce, Türkçe, Fransızca)
 
 Deadline - 24.04.2022 10:00
